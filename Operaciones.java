@@ -1,7 +1,5 @@
 public class Operaciones {
 
-    public String zz= "wwww";
-
     public static void main(String[] args){
 
         int num1 = 27;
