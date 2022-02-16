@@ -1,39 +1,42 @@
 public class Operaciones {
 
-    public static void main(String[] args){
-        int num1 = 14;
-        String valorx = "X:";
-        System.out.println(valorx , num1);
+    public String zz= "wwww";
 
-        int num2 = 27;
-        String valory = "Y:";
-        System.out.println(valory , num2);
+    public static void main(String[] args){
+
+        int num1 = 27;
+        String valor_x = "Valor X: " + String.valueOf(num1);
+        System.out.println(valor_x);
+
+        int num2 = 14;
+        String valor_y = "Valor Y: "+ String.valueOf(num2);
+        System.out.println(valor_y);
 
         //Suma
         int suma = num1 + num2;
-        String sumita = "Suma:";
-        System.out.println(sumita , suma);
+        String sumita = "Suma: "+ String.valueOf(suma);
+        System.out.println(sumita);
 
         // Resta
         int resta = num1 - num2;
-        String resti = "Resta:";
-        System.out.println(resti , resta);
+        String resti = "Resta: " + String.valueOf(resta);
+        System.out.println(resti);
 
         //Multiplicación
         double multiplicacion = num1 * num2;
-        String multi = "Multiplicación:";
-        System.out.println(multi , multiplicacion);
+        String multi = "Multiplicación: " + String.valueOf(multiplicacion);
+        System.out.println(multi);
 
         //División
         double division = num1 / num2;
-        String divi = "Suma:";
-        System.out.println(divi , division);
+        String divi = "División: " + String.valueOf(division);
+        System.out.println(divi);
 
         //Modúlo
         double modulo = num1 % num2;
-        String modu = "Módulo:";
-        System.out.println(modu , modulo);
-    }
- 
+        String modu = "Módulo: " + String.valueOf(modulo);;
+        System.out.println(modu);
 
-}
+    }
+
+}//-- FIN DE CLASE
