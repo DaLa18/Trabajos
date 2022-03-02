@@ -46,6 +46,8 @@ public class Calificaciones{
             case 91,92,93,94,95,96,97,98,99,100 -> "A";
             default -> "Error";
         };
+        
+        //Muetra los datos capturados
 
         System.out.println("Alumno/a:  " + nombrespuntocom);
         System.out.println("Calificación 1: " + numcalifi1);
