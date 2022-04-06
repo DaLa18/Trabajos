@@ -82,6 +82,7 @@ public class Deck {
 
                 }
 
+                //aquí se muestra la finalización cuando ya no tengamos cartas
                 if(deck.size() == 0){
                     System.out.println("Ya no hay más");
                     break;
