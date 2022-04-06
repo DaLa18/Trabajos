@@ -87,6 +87,8 @@ public class Deck {
                     break;
                 }
             }
+
+            //Aquí se encuentra la línea de exeption
             catch (Exception e)
             {
                 System.out.println("ERROR");
